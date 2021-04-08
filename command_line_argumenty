@@ -1,0 +1,6 @@
+#!/bin/bash
+k=$#
+for ((i=1;i<=k;i++))
+do
+	echo $((i))
+done
